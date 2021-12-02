@@ -1,0 +1,28 @@
+.navbar {
+    height: 70px;
+    left: 5px !important;
+    right: 250px !important;
+    position: absolute;
+    z-index: 890;
+    background-color: transparent;
+}
+.main-sidebar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    z-index: 880;
+    right: 0 !important;
+}
+.main-content {
+    padding-left: 20px !important;
+    padding-right: 280px !important;
+    padding-top: 80px;
+    width: 100%;
+    position: relative;
+}
+.form-group{
+    text-align: right !important;
+}
