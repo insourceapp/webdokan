@@ -17,7 +17,7 @@
         @endphp
         <style type="text/css">
            :root {
-              --main-theme-color: {{ Cache::get(domain_info('user_id').'theme_color','#dc3545') }};   
+              --main-theme-color: {{ Cache::get(domain_info('user_id').'theme_color','rgb(0, 159, 127)') }};   
           }
         </style>
         <!-- FOR FONT ICON -->

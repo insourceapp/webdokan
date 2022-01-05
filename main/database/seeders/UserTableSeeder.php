@@ -25,9 +25,9 @@ class UserTableSeeder extends Seeder
     {
         Template::create(['name'=>'Bigbag','src_path'=>'frontend/bigbag','asset_path'=>'frontend/bigbag']);
        // Template::create(['name'=>'M-Cart','src_path'=>'frontend/m-cart','asset_path'=>'frontend/m-cart']);
-        Template::create(['name'=>'Arafa Cart','src_path'=>'frontend/arafa-cart','asset_path'=>'frontend/arafa-cart']);
-        Template::create(['name'=>'Saka Cart','src_path'=>'frontend/saka-cart','asset_path'=>'frontend/saka-cart']);
-        Template::create(['name'=>'Bazar','src_path'=>'frontend/bazar','asset_path'=>'frontend/bazar']);
+        // Template::create(['name'=>'Arafa Cart','src_path'=>'frontend/arafa-cart','asset_path'=>'frontend/arafa-cart']);
+        // Template::create(['name'=>'Saka Cart','src_path'=>'frontend/saka-cart','asset_path'=>'frontend/saka-cart']);
+        // Template::create(['name'=>'Bazar','src_path'=>'frontend/bazar','asset_path'=>'frontend/bazar']);
         $super = User::create([
     		'role_id' => 1,
     		'domain_id' => 1,

@@ -88,8 +88,16 @@ class LarafyController extends Controller
            DB::select('SHOW TABLES');
           return redirect('/404');
         } catch (\Exception $e) {
-
-            return view('Larafy::info');
+           if(Session::get('mytoken')){
+            $check = Everify::Check(Session::get('mytoken'));
+            if($check){
+                return view('Larafy::info');
+            }else{
+                Session::flash('alert', \Amcoders\Check\Everify::$massage);
+            }
+           }
+            
+            return view('Larafy::purchase');
         }
 
 

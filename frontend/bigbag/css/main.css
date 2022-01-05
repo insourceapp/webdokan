@@ -474,7 +474,7 @@ button:focus {
   width: 100%;
   height: 50px;
   border: none;
-  background: #fbf2f2;
+  background: #efefef;
   border-radius: 8px;
   padding: 0px 20px;
   margin-bottom: 20px;
@@ -522,7 +522,7 @@ button:focus {
   margin: 0px 15px;
   padding: 0px 20px;
   border-radius: 8px;
-  background: #fbf2f2;
+  background: #efefef;
   border: 1px solid #e8e8e8;
 }
 
@@ -543,7 +543,7 @@ button:focus {
   height: 250px;
   padding: 15px 20px;
   border-radius: 8px;
-  background: #fbf2f2;
+  background: #efefef;
   border: 1px solid #e8e8e8;
 }
 
@@ -724,7 +724,7 @@ button:focus {
 
 .nav-tabs li .active {
   color: var(--main-theme-color) !important;
-  background: #fbf2f2 !important;
+  background: #efefef !important;
   border-color: var(--main-theme-color) !important;
 }
 
@@ -1524,7 +1524,7 @@ button:focus {
 ======================================*/
 .navbar-part {
   padding: 25px 0px;
-  background: #fbf2f2;
+  background: #efefef;
 }
 
 .navbar-part .container {
@@ -2185,7 +2185,7 @@ button:focus {
 }
 
 .banner-cate {
-  background: #fbf2f2;
+  background: #efefef;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -2246,7 +2246,7 @@ button:focus {
 
 .cate-scroll li a:hover {
   color: var(--main-theme-color);
-  background: #ffe6e6;
+  background: #ffffff;
 }
 
 .banner-slider a img {
@@ -2637,7 +2637,7 @@ button:focus {
 ======================================*/
 .single-banner {
   padding: 60px 0px;
-  background: #fbf2f2;
+  background: #efefef;
 }
 
 .single-content {
